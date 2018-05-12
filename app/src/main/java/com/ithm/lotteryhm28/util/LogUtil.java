@@ -17,15 +17,15 @@ import android.util.Log;
  */
 public class LogUtil {
 	/**
-	 * 开发阶段
+	 * 开发阶段  控制台输出
 	 */
 	private static final int DEVELOP = 0;
 	/**
-	 * 内部测试阶段
+	 * 内部测试阶段  记录在内存卡上
 	 */
 	private static final int DEBUG = 1;
 	/**
-	 * 公开测试
+	 * 公开测试  记到内存卡上或服务器上
 	 */
 	private static final int BATE = 2;
 	/**
